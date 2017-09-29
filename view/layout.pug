@@ -1,0 +1,46 @@
+doctype html
+//- Kore Layout
+//- Copyright(c) 2014 Koreviz
+//- MIT Licensed
+html
+  //- head
+  head
+    block head
+      include include/_head
+
+    body
+      //- navbar
+      block navbar
+        include include/_navbar
+
+      //- header
+      block header
+        include include/_header
+
+      //- main
+      block main
+        .block.block-inverse.block-fill-height.app-header(style='background-image: url(https://d34ju9pzlz8mhr.cloudfront.net/files/599351c23d4a7a690fca85b1.jpg)')
+          .container
+            .row
+              .col-sm-10.col-lg-6.ml-auto.text-ribbon.app-text-ribbon
+                h1.block-titleData The best topper cheese
+                p.lead.mb-4.text-muted Want to add flavor to any dish? So many of our chefs love our cheese for two reasons, flavor leveling and presentation. Kings Pearl Cheese has it’s own unique flavor that won’t mask the taste of the other food and it looks beautiful on any dish. Forget the Feta and Blue and start topping your dishes with Kings Pearl Cheese. Did we mention it’s FAT FREE?
+
+        .block.block-inverse.block-fill-height.app-header(style='background-image: url(https://d34ju9pzlz8mhr.cloudfront.net/files/599351d23d4a7a690fca85b3.jpg)')
+          .container
+            .row
+              .col-sm-10.col-lg-6.text-ribbon.app-text-ribbon
+                h1.block-titleData Start your day right
+                p.lead.mb-4.text-muted Breakfast, the most important meal of the day. No matter how you eat your eggs; scrambled, fried, or whipped into an omelet, make sure you add some Kings Pearl Cheese. We guarantee you won’t want eggs without it ever again.
+
+      //- footer
+      block footer
+        include include/_footer
+
+      //- script
+      block script
+        include include/_script
+
+      //- analytics
+      block analytics
+        include include/_analytics
