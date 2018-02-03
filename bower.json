@@ -6,7 +6,7 @@
 		"react-dom": "https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js",
 		"d3": "https://d3js.org/d3.v4.min.js",
 		"fastclick": "https://raw.github.com/ftlabs/fastclick/master/lib/fastclick.js",
-		"jquery": "https://code.jquery.com/jquery-3.3.0.min.js",
+		"jquery": "https://code.jquery.com/jquery-3.3.1.min.js",
 		"lodash": "https://raw.github.com/lodash/lodash/4.17.4/dist/lodash.min.js",
 		"three": "https://raw.github.com/mrdoob/three.js/master/build/three.min.js",
 		"tween": "https://raw.github.com/sole/tween.js/master/src/Tween.js"
