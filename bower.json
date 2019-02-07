@@ -2,8 +2,8 @@
 	"name": "orion",
 	"version": "1.0.0",
 	"dependencies": {
-		"react": "https://unpkg.com/react@16.0.0/umd/react.production.min.js",
-		"react-dom": "https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js",
+		"react": "https://unpkg.com/react@16/umd/react.production.min.js",
+		"react-dom": "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js",
 		"d3": "https://d3js.org/d3.v4.min.js",
 		"fastclick": "https://raw.github.com/ftlabs/fastclick/master/lib/fastclick.js",
 		"jquery": "https://code.jquery.com/jquery-3.3.1.min.js",
